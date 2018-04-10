@@ -28,7 +28,7 @@ app.get('/vokaturi', function (req, res) {
     args: ['hello.wav']
   };
 
-  PythonShell.run('examples/OpenVokaWavMean-mac64.py', options, function (err, results) {
+  PythonShell.run('OpenVokaWavMean-mac64.py', options, function (err, results) {
     console.log("results :" + results);
     console.log("err :" + err);
     if (err) throw err;

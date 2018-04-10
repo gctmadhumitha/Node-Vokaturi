@@ -19,11 +19,7 @@ import scipy.io.wavfile
 import Vokaturi
 import os
 
-sys.path.append("../api")
-
-
 vokaturi_path = os.path.dirname(os.path.realpath(__file__)) 
-print(vokaturi_path)
 print(vokaturi_path)
 
 print ("Loading library...")
